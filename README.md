@@ -1,0 +1,2 @@
+# docker-registry
+Registry Dockerfile
