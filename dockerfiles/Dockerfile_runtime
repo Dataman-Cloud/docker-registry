@@ -1,6 +1,6 @@
 # Build a minimal distribution container
 
-FROM alpine:3.4
+FROM demoregistry.dataman-inc.com/library/alpine3.4-base:latest
 
 RUN set -ex \
     && apk add --no-cache ca-certificates apache2-utils
